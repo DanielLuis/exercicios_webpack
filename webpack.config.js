@@ -2,6 +2,7 @@ const webpack = require('webpack')
 
 
 module.exports = {
+    //devtool: 'source-map',
     entry: './ex/index.js',
     output : {
         path : __dirname + '/public',
